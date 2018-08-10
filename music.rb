@@ -4,7 +4,8 @@
 
 music_library = {
   :taylor_swift => "Shake it Off",
-  :
+  :cardi_b => "I Like it",
+  
 }
 
 def list_artists
