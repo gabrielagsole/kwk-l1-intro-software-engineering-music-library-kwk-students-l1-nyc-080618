@@ -26,6 +26,7 @@ list_songs(music_library)
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
 def delete_artist(music_library)
+  
 end 
 
 
