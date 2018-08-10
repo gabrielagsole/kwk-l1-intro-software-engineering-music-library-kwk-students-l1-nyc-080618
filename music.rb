@@ -5,15 +5,15 @@ music_library = {
   :the_killers => "Mr. Brightside"
 }
 
+
 def list_artists(music_library)
   music_library.each_key do |key|
     puts "#{key}"
   end
 end 
-list_artists(music_library)
+# list_artists(music_library)
+# return 
 
-#2. Define a method named `list_songs`. This method should use the `each_value` method to iterate over the music library hash and print out the name of the songs in the library.
-# This method should accept a hash as an argument.
 
 def list_songs(music_library)
   music_library.each_value do |value|
