@@ -8,6 +8,7 @@ music_library = {
 def list_artists(music_library)
   music_library.each_key do |key|
     puts "#{key}"
+  end
 end 
 list_artists(music_library)
 
